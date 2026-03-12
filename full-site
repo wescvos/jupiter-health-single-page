@@ -1,0 +1,1771 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Jupiter Healthcare and Chiropractic | Spinal Decompression & Trusted Care in Jupiter, FL</title>
+<meta name="description" content="Jupiter Healthcare and Chiropractic offers spinal decompression, chiropractic adjustments, massage therapy, and cold laser therapy in Jupiter, FL. Led by Dr. James McErlain, D.C.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<style>
+
+/* SVG fallback sizing */
+svg { max-width: 100%; }
+svg:not([width]) { width: 24px; height: 24px; }
+/* ===== RESET & VARIABLES ===== */
+*, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+:root {
+  --navy: #0B1D32;
+  --blue-deep: #133C65;
+  --blue-primary: #1A5FA0;
+  --blue-bright: #2B7EC6;
+  --blue-light: #E6F0FA;
+  --blue-pale: #F2F7FC;
+  --gold: #C8993E;
+  --gold-light: #E8D5A8;
+  --white: #FFFFFF;
+  --gray-50: #F8FAFB;
+  --gray-100: #EEF1F4;
+  --gray-200: #D8DEE5;
+  --gray-400: #8E99A8;
+  --gray-600: #5A6577;
+  --gray-800: #2D3444;
+  --gray-900: #1A1F2B;
+  --font-display: 'Cormorant Garamond', Georgia, serif;
+  --font-body: 'Outfit', -apple-system, sans-serif;
+  --shadow-sm: 0 1px 3px rgba(11,29,50,0.06), 0 1px 2px rgba(11,29,50,0.04);
+  --shadow-md: 0 4px 16px rgba(11,29,50,0.08), 0 2px 6px rgba(11,29,50,0.04);
+  --shadow-lg: 0 12px 40px rgba(11,29,50,0.1), 0 4px 12px rgba(11,29,50,0.06);
+  --shadow-xl: 0 20px 60px rgba(11,29,50,0.12), 0 8px 20px rgba(11,29,50,0.06);
+  --radius-sm: 6px;
+  --radius-md: 12px;
+  --radius-lg: 20px;
+  --radius-xl: 32px;
+  --transition: 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+html { scroll-behavior: smooth; scroll-padding-top: 80px; }
+
+body {
+  font-family: var(--font-body);
+  color: var(--gray-800);
+  line-height: 1.65;
+  font-weight: 400;
+  background: var(--white);
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+}
+
+img { max-width: 100%; height: auto; display: block; }
+a { text-decoration: none; color: inherit; }
+button { cursor: pointer; border: none; background: none; font-family: inherit; }
+
+/* ===== TYPOGRAPHY ===== */
+h1, h2, h3, h4 { font-family: var(--font-display); font-weight: 600; line-height: 1.2; color: var(--navy); }
+h1 { font-size: clamp(2.5rem, 5vw, 4rem); letter-spacing: -0.01em; }
+h2 { font-size: clamp(2rem, 4vw, 3rem); }
+h3 { font-size: clamp(1.4rem, 2.5vw, 1.75rem); }
+h4 { font-size: 1.2rem; }
+p { font-size: 1.05rem; color: var(--gray-600); }
+
+.section-label {
+  font-family: var(--font-body);
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--blue-primary);
+  margin-bottom: 0.75rem;
+  display: block;
+}
+
+.section-title { margin-bottom: 1.25rem; }
+.section-subtitle { font-size: 1.15rem; color: var(--gray-600); max-width: 640px; line-height: 1.7; }
+
+/* ===== LAYOUT ===== */
+.container { width: 100%; max-width: 1200px; margin: 0 auto; padding: 0 24px; }
+.section-padding { padding: 100px 0; }
+
+/* ===== BUTTONS ===== */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 14px 32px;
+  border-radius: 50px;
+  font-family: var(--font-body);
+  font-size: 0.95rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  transition: all var(--transition);
+  white-space: nowrap;
+}
+
+.btn-primary {
+  background: var(--blue-primary);
+  color: var(--white);
+  box-shadow: 0 4px 16px rgba(26,95,160,0.3);
+}
+.btn-primary:hover {
+  background: var(--blue-bright);
+  box-shadow: 0 6px 24px rgba(26,95,160,0.4);
+  transform: translateY(-2px);
+}
+
+.btn-secondary {
+  background: var(--white);
+  color: var(--blue-primary);
+  border: 2px solid var(--blue-primary);
+}
+.btn-secondary:hover {
+  background: var(--blue-primary);
+  color: var(--white);
+  transform: translateY(-2px);
+}
+
+.btn-gold {
+  background: var(--gold);
+  color: var(--white);
+  box-shadow: 0 4px 16px rgba(200,153,62,0.3);
+}
+.btn-gold:hover {
+  background: #b8892e;
+  box-shadow: 0 6px 24px rgba(200,153,62,0.4);
+  transform: translateY(-2px);
+}
+
+.btn-white {
+  background: var(--white);
+  color: var(--navy);
+  box-shadow: var(--shadow-md);
+}
+.btn-white:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-lg);
+}
+
+/* ===== NAVIGATION ===== */
+.nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  background: rgba(255,255,255,0.92);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border-bottom: 1px solid rgba(11,29,50,0.06);
+  transition: all var(--transition);
+}
+.nav.scrolled {
+  box-shadow: var(--shadow-md);
+}
+.nav-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 76px;
+}
+.nav-logo {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.nav-logo img {
+  height: 48px;
+  width: auto;
+}
+.nav-logo-text {
+  font-family: var(--font-display);
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: var(--navy);
+  line-height: 1.2;
+}
+.nav-logo-text span {
+  display: block;
+  font-size: 0.7rem;
+  font-family: var(--font-body);
+  font-weight: 500;
+  color: var(--blue-primary);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  list-style: none;
+}
+.nav-links a {
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: var(--gray-600);
+  transition: color var(--transition);
+  position: relative;
+}
+.nav-links a::after {
+  content: '';
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background: var(--blue-primary);
+  transition: width var(--transition);
+}
+.nav-links a:hover { color: var(--blue-primary); }
+.nav-links a:hover::after { width: 100%; }
+.nav-links a.active { color: var(--blue-primary); }
+.nav-links a.active::after { width: 100%; }
+.nav-cta {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.nav-phone {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--navy);
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.nav-phone svg { width: 16px; height: 16px; color: var(--blue-primary); }
+
+/* Mobile menu */
+.nav-toggle {
+  display: none;
+  flex-direction: column;
+  gap: 5px;
+  padding: 8px;
+}
+.nav-toggle span {
+  display: block;
+  width: 24px;
+  height: 2px;
+  background: var(--navy);
+  transition: all var(--transition);
+  border-radius: 2px;
+}
+
+/* ===== HERO ===== */
+.hero {
+  position: relative;
+  min-height: 92vh;
+  display: flex;
+  align-items: center;
+  padding-top: 76px;
+  overflow: hidden;
+  background: linear-gradient(135deg, var(--blue-pale) 0%, var(--white) 40%, var(--blue-pale) 100%);
+}
+.hero::before {
+  content: '';
+  position: absolute;
+  top: -200px;
+  right: -200px;
+  width: 700px;
+  height: 700px;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(26,95,160,0.06) 0%, transparent 70%);
+  pointer-events: none;
+}
+.hero::after {
+  content: '';
+  position: absolute;
+  bottom: -100px;
+  left: -100px;
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(200,153,62,0.05) 0%, transparent 70%);
+  pointer-events: none;
+}
+.hero-inner {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+  align-items: center;
+}
+.hero-content { position: relative; z-index: 2; }
+.hero-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: var(--white);
+  border: 1px solid var(--gray-100);
+  border-radius: 50px;
+  padding: 8px 18px;
+  font-size: 0.82rem;
+  font-weight: 500;
+  color: var(--gray-600);
+  margin-bottom: 28px;
+  box-shadow: var(--shadow-sm);
+}
+.hero-badge svg { width: 16px; height: 16px; color: var(--gold); }
+.hero h1 {
+  margin-bottom: 20px;
+}
+.hero h1 em {
+  font-style: italic;
+  color: var(--blue-primary);
+}
+.hero-desc {
+  font-size: 1.15rem;
+  line-height: 1.75;
+  color: var(--gray-600);
+  margin-bottom: 36px;
+  max-width: 520px;
+}
+.hero-buttons { display: flex; gap: 16px; flex-wrap: wrap; margin-bottom: 48px; }
+.hero-stats {
+  display: flex;
+  gap: 40px;
+}
+.hero-stat {
+  text-align: left;
+}
+.hero-stat-number {
+  font-family: var(--font-display);
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: var(--navy);
+  line-height: 1;
+  margin-bottom: 4px;
+}
+.hero-stat-label {
+  font-size: 0.82rem;
+  color: var(--gray-400);
+  font-weight: 500;
+}
+.hero-visual {
+  position: relative;
+  z-index: 2;
+}
+.hero-image-wrapper {
+  position: relative;
+  border-radius: var(--radius-xl);
+  overflow: hidden;
+  box-shadow: var(--shadow-xl);
+  aspect-ratio: 4/5;
+}
+.hero-image-wrapper img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.hero-floating-card {
+  position: absolute;
+  bottom: 24px;
+  left: -32px;
+  background: var(--white);
+  border-radius: var(--radius-md);
+  padding: 18px 22px;
+  box-shadow: var(--shadow-lg);
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  z-index: 3;
+  animation: float 4s ease-in-out infinite;
+}
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-8px); }
+}
+.hero-floating-icon {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background: var(--blue-light);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+.hero-floating-icon svg { width: 22px; height: 22px; color: var(--blue-primary); }
+.hero-floating-text {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--navy);
+  line-height: 1.3;
+}
+.hero-floating-text span {
+  display: block;
+  font-weight: 400;
+  font-size: 0.78rem;
+  color: var(--gray-400);
+}
+
+/* ===== TRUST BAR ===== */
+.trust-bar {
+  padding: 40px 0;
+  background: var(--white);
+  border-bottom: 1px solid var(--gray-100);
+}
+.trust-items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 48px;
+  flex-wrap: wrap;
+}
+.trust-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: var(--gray-600);
+}
+.trust-item svg { width: 20px; height: 20px; color: var(--blue-primary); flex-shrink: 0; }
+
+/* ===== SERVICES ===== */
+.services { background: var(--gray-50); }
+.services-header {
+  text-align: center;
+  margin-bottom: 64px;
+}
+.services-header .section-subtitle { margin: 0 auto; }
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 28px;
+}
+.service-card {
+  background: var(--white);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  box-shadow: var(--shadow-sm);
+  transition: all var(--transition);
+  border: 1px solid var(--gray-100);
+}
+.service-card:hover {
+  transform: translateY(-6px);
+  box-shadow: var(--shadow-lg);
+  border-color: transparent;
+}
+.service-card-img {
+  height: 200px;
+  overflow: hidden;
+  position: relative;
+}
+.service-card-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.6s ease;
+}
+.service-card:hover .service-card-img img {
+  transform: scale(1.06);
+}
+.service-card-body {
+  padding: 28px;
+}
+.service-card-body h3 {
+  font-size: 1.3rem;
+  margin-bottom: 12px;
+}
+.service-card-body p {
+  font-size: 0.95rem;
+  line-height: 1.65;
+  color: var(--gray-600);
+}
+.service-tag {
+  display: inline-block;
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--blue-primary);
+  background: var(--blue-light);
+  padding: 5px 12px;
+  border-radius: 50px;
+  margin-bottom: 14px;
+}
+
+/* ===== CONDITIONS ===== */
+.conditions-inner {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 80px;
+  align-items: start;
+}
+.conditions-left { position: sticky; top: 120px; }
+.conditions-left .section-subtitle { margin-bottom: 28px; }
+.conditions-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+.condition-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  padding: 18px 20px;
+  background: var(--blue-pale);
+  border-radius: var(--radius-md);
+  transition: all var(--transition);
+  border: 1px solid transparent;
+}
+.condition-item:hover {
+  background: var(--white);
+  border-color: var(--blue-primary);
+  box-shadow: var(--shadow-sm);
+}
+.condition-icon {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: var(--blue-primary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+.condition-icon svg { width: 18px; height: 18px; color: var(--white); }
+.condition-item h4 {
+  font-family: var(--font-body);
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--navy);
+  margin-bottom: 3px;
+}
+.condition-item p {
+  font-size: 0.82rem;
+  color: var(--gray-400);
+  line-height: 1.5;
+}
+
+/* ===== ABOUT / TEAM ===== */
+.about { background: var(--gray-50); }
+.about-header { text-align: center; margin-bottom: 64px; }
+.about-header .section-subtitle { margin: 0 auto; }
+.about-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+  align-items: start;
+  margin-bottom: 80px;
+}
+.about-image {
+  border-radius: var(--radius-xl);
+  overflow: hidden;
+  box-shadow: var(--shadow-lg);
+  position: relative;
+}
+.about-image img {
+  width: 100%;
+  aspect-ratio: 3/4;
+  object-fit: cover;
+  object-position: top center;
+}
+.about-content h3 { margin-bottom: 16px; }
+.about-content p {
+  margin-bottom: 16px;
+  font-size: 1rem;
+  line-height: 1.75;
+}
+.about-credentials {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 24px;
+}
+.credential-tag {
+  font-size: 0.8rem;
+  font-weight: 500;
+  padding: 6px 14px;
+  background: var(--blue-light);
+  color: var(--blue-primary);
+  border-radius: 50px;
+}
+
+/* Why choose us */
+.why-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 24px;
+  margin-top: 64px;
+}
+.why-card {
+  text-align: center;
+  padding: 36px 24px;
+  background: var(--white);
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--gray-100);
+  transition: all var(--transition);
+}
+.why-card:hover {
+  border-color: var(--blue-primary);
+  box-shadow: var(--shadow-md);
+  transform: translateY(-4px);
+}
+.why-icon {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background: var(--blue-light);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 18px;
+}
+.why-icon svg { width: 26px; height: 26px; color: var(--blue-primary); }
+.why-card h4 {
+  font-family: var(--font-body);
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--navy);
+  margin-bottom: 8px;
+}
+.why-card p {
+  font-size: 0.88rem;
+  color: var(--gray-400);
+  line-height: 1.6;
+}
+
+/* Office info bar */
+.office-info {
+  margin-top: 64px;
+  background: var(--navy);
+  border-radius: var(--radius-lg);
+  padding: 48px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 40px;
+}
+.office-info-block h4 {
+  font-family: var(--font-body);
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--gold);
+  margin-bottom: 16px;
+}
+.office-info-block p,
+.office-info-block li {
+  color: rgba(255,255,255,0.75);
+  font-size: 0.92rem;
+  line-height: 1.8;
+}
+.office-info-block ul { list-style: none; }
+
+/* ===== TESTIMONIALS ===== */
+.testimonials-header { text-align: center; margin-bottom: 56px; }
+.testimonials-header .section-subtitle { margin: 0 auto; }
+.rating-summary {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  margin-top: 20px;
+}
+.rating-stars { display: flex; gap: 4px; }
+.rating-stars svg { width: 22px; height: 22px; color: var(--gold); fill: var(--gold); }
+.rating-text { font-size: 1rem; font-weight: 600; color: var(--navy); }
+.rating-count { font-size: 0.9rem; color: var(--gray-400); }
+
+.testimonials-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+  margin-bottom: 56px;
+}
+.testimonial-card {
+  background: var(--white);
+  border-radius: var(--radius-lg);
+  padding: 32px;
+  border: 1px solid var(--gray-100);
+  box-shadow: var(--shadow-sm);
+  transition: all var(--transition);
+  position: relative;
+}
+.testimonial-card:hover {
+  box-shadow: var(--shadow-md);
+  transform: translateY(-3px);
+}
+.testimonial-card::before {
+  content: '\201C';
+  font-family: var(--font-display);
+  font-size: 4rem;
+  color: var(--blue-light);
+  position: absolute;
+  top: 16px;
+  left: 28px;
+  line-height: 1;
+}
+.testimonial-stars {
+  display: flex;
+  gap: 3px;
+  margin-bottom: 16px;
+}
+.testimonial-stars svg { width: 16px; height: 16px; color: var(--gold); fill: var(--gold); }
+.testimonial-text {
+  font-size: 0.95rem;
+  line-height: 1.7;
+  color: var(--gray-600);
+  margin-bottom: 20px;
+  position: relative;
+  z-index: 1;
+}
+.testimonial-author {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.testimonial-avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: var(--blue-light);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--font-display);
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--blue-primary);
+}
+.testimonial-author-info h4 {
+  font-family: var(--font-body);
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--navy);
+}
+.testimonial-author-info span {
+  font-size: 0.78rem;
+  color: var(--gray-400);
+}
+
+/* Featured testimonial */
+.featured-testimonial {
+  background: linear-gradient(135deg, var(--blue-deep) 0%, var(--navy) 100%);
+  border-radius: var(--radius-xl);
+  padding: 56px 64px;
+  position: relative;
+  overflow: hidden;
+}
+.featured-testimonial::before {
+  content: '';
+  position: absolute;
+  top: -100px;
+  right: -100px;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  background: rgba(200,153,62,0.08);
+}
+.featured-testimonial blockquote {
+  font-family: var(--font-display);
+  font-size: 1.4rem;
+  font-style: italic;
+  color: rgba(255,255,255,0.9);
+  line-height: 1.6;
+  margin-bottom: 24px;
+  position: relative;
+  z-index: 1;
+}
+.featured-testimonial .testimonial-author-info h4 { color: var(--white); }
+.featured-testimonial .testimonial-author-info span { color: rgba(255,255,255,0.5); }
+.featured-testimonial .testimonial-avatar {
+  background: rgba(255,255,255,0.15);
+  color: var(--gold);
+}
+
+/* ===== SPECIAL OFFER BANNER ===== */
+.offer-banner {
+  background: linear-gradient(135deg, var(--gold) 0%, #b8892e 100%);
+  position: relative;
+  overflow: hidden;
+}
+.offer-banner::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="24" height="24"><circle cx="20" cy="30" r="40" fill="rgba(255,255,255,0.04)"/><circle cx="80" cy="70" r="50" fill="rgba(255,255,255,0.03)"/></svg>');
+  background-size: cover;
+}
+.offer-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+  position: relative;
+  z-index: 1;
+  padding: 56px 0;
+}
+.offer-content h2 { color: var(--white); margin-bottom: 8px; }
+.offer-content p { color: rgba(255,255,255,0.85); font-size: 1.1rem; }
+.offer-price {
+  text-align: center;
+  flex-shrink: 0;
+}
+.offer-price .amount {
+  font-family: var(--font-display);
+  font-size: 3.5rem;
+  font-weight: 700;
+  color: var(--white);
+  line-height: 1;
+}
+.offer-price .label {
+  font-size: 0.85rem;
+  color: rgba(255,255,255,0.7);
+  margin-top: 4px;
+  display: block;
+}
+
+/* ===== CONTACT ===== */
+.contact { background: var(--blue-pale); }
+.contact-header { text-align: center; margin-bottom: 56px; }
+.contact-header .section-subtitle { margin: 0 auto; }
+.contact-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 48px;
+}
+.contact-form-wrapper {
+  background: var(--white);
+  border-radius: var(--radius-xl);
+  padding: 44px;
+  box-shadow: var(--shadow-lg);
+}
+.contact-form-wrapper h3 {
+  margin-bottom: 8px;
+}
+.contact-form-wrapper > p {
+  margin-bottom: 28px;
+  font-size: 0.95rem;
+}
+.form-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+.form-group { margin-bottom: 0; }
+.form-group.full { grid-column: 1 / -1; }
+.form-group label {
+  display: block;
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: var(--navy);
+  margin-bottom: 6px;
+}
+.form-group input,
+.form-group select,
+.form-group textarea {
+  width: 100%;
+  padding: 12px 16px;
+  border: 1.5px solid var(--gray-200);
+  border-radius: var(--radius-sm);
+  font-family: var(--font-body);
+  font-size: 0.95rem;
+  color: var(--gray-800);
+  transition: border-color var(--transition);
+  background: var(--white);
+}
+.form-group input:focus,
+.form-group select:focus,
+.form-group textarea:focus {
+  outline: none;
+  border-color: var(--blue-primary);
+  box-shadow: 0 0 0 3px rgba(26,95,160,0.1);
+}
+.form-group textarea { resize: vertical; min-height: 100px; }
+
+.contact-info-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.contact-card {
+  background: var(--white);
+  border-radius: var(--radius-lg);
+  padding: 28px;
+  display: flex;
+  align-items: flex-start;
+  gap: 18px;
+  box-shadow: var(--shadow-sm);
+  border: 1px solid var(--gray-100);
+  transition: all var(--transition);
+}
+.contact-card:hover {
+  box-shadow: var(--shadow-md);
+  border-color: var(--blue-primary);
+}
+.contact-card-icon {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background: var(--blue-light);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+.contact-card-icon svg { width: 22px; height: 22px; color: var(--blue-primary); }
+.contact-card h4 {
+  font-family: var(--font-body);
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--navy);
+  margin-bottom: 4px;
+}
+.contact-card p {
+  font-size: 0.9rem;
+  color: var(--gray-400);
+  line-height: 1.6;
+}
+.contact-card a {
+  color: var(--blue-primary);
+  font-weight: 600;
+  font-size: 1.05rem;
+}
+.map-wrapper {
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  height: 220px;
+  box-shadow: var(--shadow-sm);
+  border: 1px solid var(--gray-100);
+}
+.map-wrapper iframe {
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+/* ===== FOOTER ===== */
+.footer {
+  background: var(--navy);
+  padding: 56px 0 32px;
+}
+.footer-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  gap: 40px;
+  margin-bottom: 40px;
+}
+.footer-brand {
+  max-width: 320px;
+}
+.footer-brand .nav-logo-text {
+  color: var(--white);
+  font-size: 1.3rem;
+  margin-bottom: 14px;
+}
+.footer-brand .nav-logo-text span { color: var(--gold); }
+.footer-brand p {
+  font-size: 0.88rem;
+  color: rgba(255,255,255,0.5);
+  line-height: 1.7;
+}
+.footer-links h4 {
+  font-family: var(--font-body);
+  font-size: 0.78rem;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--gold);
+  margin-bottom: 16px;
+}
+.footer-links ul { list-style: none; }
+.footer-links li { margin-bottom: 10px; }
+.footer-links a {
+  font-size: 0.9rem;
+  color: rgba(255,255,255,0.55);
+  transition: color var(--transition);
+}
+.footer-links a:hover { color: var(--white); }
+.footer-bottom {
+  border-top: 1px solid rgba(255,255,255,0.08);
+  padding-top: 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer-bottom p {
+  font-size: 0.82rem;
+  color: rgba(255,255,255,0.35);
+}
+.footer-bottom a {
+  color: rgba(255,255,255,0.5);
+  transition: color var(--transition);
+}
+.footer-bottom a:hover { color: var(--white); }
+
+/* ===== SCROLL ANIMATIONS ===== */
+.reveal {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 0.7s ease, transform 0.7s ease;
+}
+.reveal.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+.reveal-delay-1 { transition-delay: 0.1s; }
+.reveal-delay-2 { transition-delay: 0.2s; }
+.reveal-delay-3 { transition-delay: 0.3s; }
+.reveal-delay-4 { transition-delay: 0.4s; }
+.reveal-delay-5 { transition-delay: 0.5s; }
+
+/* ===== RESPONSIVE ===== */
+@media (max-width: 1024px) {
+  .hero-inner { grid-template-columns: 1fr; gap: 40px; }
+  .hero-visual { max-width: 480px; margin: 0 auto; }
+  .services-grid { grid-template-columns: repeat(2, 1fr); }
+  .conditions-inner { grid-template-columns: 1fr; gap: 40px; }
+  .conditions-left { position: static; }
+  .about-grid { grid-template-columns: 1fr; gap: 40px; }
+  .about-image { max-width: 400px; }
+  .why-grid { grid-template-columns: repeat(2, 1fr); }
+  .office-info { grid-template-columns: 1fr 1fr; }
+  .testimonials-grid { grid-template-columns: repeat(2, 1fr); }
+  .contact-grid { grid-template-columns: 1fr; }
+  .footer-inner { flex-wrap: wrap; }
+}
+
+@media (max-width: 768px) {
+  .section-padding { padding: 64px 0; }
+  .nav-links { display: none; }
+  .nav-toggle { display: flex; }
+  .nav-phone { display: none; }
+  .nav-links.open {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 76px;
+    left: 0;
+    right: 0;
+    background: var(--white);
+    padding: 24px;
+    gap: 20px;
+    border-bottom: 1px solid var(--gray-100);
+    box-shadow: var(--shadow-md);
+  }
+  .hero { min-height: auto; padding: 100px 0 60px; }
+  .hero-stats { gap: 24px; }
+  .hero-floating-card { display: none; }
+  .services-grid { grid-template-columns: 1fr; }
+  .conditions-grid { grid-template-columns: 1fr; }
+  .why-grid { grid-template-columns: 1fr; }
+  .office-info { grid-template-columns: 1fr; padding: 32px; }
+  .testimonials-grid { grid-template-columns: 1fr; }
+  .featured-testimonial { padding: 36px 28px; }
+  .featured-testimonial blockquote { font-size: 1.15rem; }
+  .offer-inner { flex-direction: column; text-align: center; }
+  .form-grid { grid-template-columns: 1fr; }
+  .contact-form-wrapper { padding: 28px; }
+  .footer-inner { flex-direction: column; }
+  .footer-bottom { flex-direction: column; gap: 8px; text-align: center; }
+}
+</style>
+</head>
+<body>
+
+<!-- ===== NAVIGATION ===== -->
+<nav class="nav" id="nav">
+  <div class="container nav-inner">
+    <a href="#home" class="nav-logo">
+      <img src="https://www.jupiterbackandneck.com/img/site_assets/logo.png" alt="Jupiter Healthcare and Chiropractic">
+      <div class="nav-logo-text">
+        Jupiter Healthcare
+        <span>& Chiropractic</span>
+      </div>
+    </a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#services">Services</a></li>
+      <li><a href="#conditions">Conditions</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#testimonials">Reviews</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div class="nav-cta">
+      <a href="tel:5617417575" class="nav-phone">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z"/></svg>
+        (561) 741-7575
+      </a>
+      <a href="#contact" class="btn btn-primary" style="padding: 10px 24px; font-size: 0.85rem;">Book Now</a>
+    </div>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<!-- ===== HERO ===== -->
+<section class="hero" id="home">
+  <div class="container hero-inner">
+    <div class="hero-content">
+      <div class="hero-badge">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24" width="24" height="24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+        4.9-Star Rated on Google
+      </div>
+      <h1>Find <em>lasting relief</em> from back & neck pain</h1>
+      <p class="hero-desc">Advanced spinal decompression, hands-on chiropractic care, and therapeutic massage in Jupiter, FL. Led by Dr. James McErlain with 20+ years of experience helping patients avoid surgery.</p>
+      <div class="hero-buttons">
+        <a href="#contact" class="btn btn-primary">
+          Schedule Your Visit
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor" width="18" height="18"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg>
+        </a>
+        <a href="tel:5617417575" class="btn btn-secondary">Call (561) 741-7575</a>
+      </div>
+      <div class="hero-stats">
+        <div class="hero-stat">
+          <div class="hero-stat-number">20+</div>
+          <div class="hero-stat-label">Years Experience</div>
+        </div>
+        <div class="hero-stat">
+          <div class="hero-stat-number">1000s</div>
+          <div class="hero-stat-label">Patients Treated</div>
+        </div>
+        <div class="hero-stat">
+          <div class="hero-stat-number">4.9</div>
+          <div class="hero-stat-label">Google Rating</div>
+        </div>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <div class="hero-image-wrapper">
+        <img src="https://www.jupiterbackandneck.com/img/site_assets/dr-mcerlain.jpg" alt="Dr. James McErlain, DC - Jupiter Healthcare and Chiropractic">
+      </div>
+      <div class="hero-floating-card">
+        <div class="hero-floating-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+        </div>
+        <div class="hero-floating-text">
+          Same-Day Treatment
+          <span>Most patients treated on first visit</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== TRUST BAR ===== -->
+<div class="trust-bar">
+  <div class="container">
+    <div class="trust-items">
+      <div class="trust-item">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75m-3-7.036A11.959 11.959 0 013.598 6 11.99 11.99 0 003 9.749c0 5.592 3.824 10.29 9 11.623 5.176-1.332 9-6.03 9-11.622 0-1.31-.21-2.571-.598-3.751h-.152c-3.196 0-6.1-1.248-8.25-3.285z"/></svg>
+        Medicare In-Network
+      </div>
+      <div class="trust-item">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+        No-Wait Policy
+      </div>
+      <div class="trust-item">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z"/><path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 0115 0z"/></svg>
+        Jupiter, FL
+      </div>
+      <div class="trust-item">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M9.813 15.904L9 18.75l-.813-2.846a4.5 4.5 0 00-3.09-3.09L2.25 12l2.846-.813a4.5 4.5 0 003.09-3.09L9 5.25l.813 2.846a4.5 4.5 0 003.09 3.09L15.75 12l-2.846.813a4.5 4.5 0 00-3.09 3.09zM18.259 8.715L18 9.75l-.259-1.035a3.375 3.375 0 00-2.455-2.456L14.25 6l1.036-.259a3.375 3.375 0 002.455-2.456L18 2.25l.259 1.035a3.375 3.375 0 002.455 2.456L21.75 6l-1.036.259a3.375 3.375 0 00-2.455 2.456z"/></svg>
+        Non-Surgical Solutions
+      </div>
+      <div class="trust-item">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M2.25 18.75a60.07 60.07 0 0115.797 2.101c.727.198 1.453-.342 1.453-1.096V18.75M3.75 4.5v.75A.75.75 0 013 6h-.75m0 0v-.375c0-.621.504-1.125 1.125-1.125H20.25M2.25 6v9m18-10.5v.75c0 .414.336.75.75.75h.75m-1.5-1.5h.375c.621 0 1.125.504 1.125 1.125v9.75c0 .621-.504 1.125-1.125 1.125h-.375m1.5-1.5H21a.75.75 0 00-.75.75v.75m0 0H3.75m0 0h-.375a1.125 1.125 0 01-1.125-1.125V15m1.5 1.5v-.75A.75.75 0 003 15h-.75M15 10.5a3 3 0 11-6 0 3 3 0 016 0zm3 0h.008v.008H18V10.5zm-12 0h.008v.008H6V10.5z"/></svg>
+        Affordable Cash Rates
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ===== SERVICES ===== -->
+<section class="services section-padding" id="services">
+  <div class="container">
+    <div class="services-header reveal">
+      <span class="section-label">Our Services</span>
+      <h2 class="section-title">Comprehensive care tailored to your needs</h2>
+      <p class="section-subtitle">From advanced spinal decompression to therapeutic massage, we combine proven techniques with the latest technology to help you heal naturally.</p>
+    </div>
+    <div class="services-grid">
+      <div class="service-card reveal reveal-delay-1">
+        <div class="service-card-img">
+          <img src="https://www.jupiterbackandneck.com/img/site_assets/services-decompression.jpg" alt="Spinal Decompression Therapy">
+        </div>
+        <div class="service-card-body">
+          <span class="service-tag">Advanced Technology</span>
+          <h3>Spinal Decompression</h3>
+          <p>Using the FDA-cleared DRX9000 and Accu-Spina IDD systems, we gently stretch the spine to relieve pressure on compressed discs and nerves. Effective for herniated discs, sciatica, and degenerative disc disease -- without drugs or surgery.</p>
+        </div>
+      </div>
+      <div class="service-card reveal reveal-delay-2">
+        <div class="service-card-img">
+          <img src="https://www.jupiterbackandneck.com/img/site_assets/service-chiropractic.jpg" alt="Chiropractic Adjustments">
+        </div>
+        <div class="service-card-body">
+          <span class="service-tag">Hands-On Care</span>
+          <h3>Chiropractic Adjustments</h3>
+          <p>Gentle, precise adjustments restore natural motion to your spine. Dr. McErlain uses Diversified, Cox, Drop, and Motion Palpation techniques to correct misalignments, improve posture, and enhance nervous system function.</p>
+        </div>
+      </div>
+      <div class="service-card reveal reveal-delay-3">
+        <div class="service-card-img">
+          <img src="https://www.jupiterbackandneck.com/img/site_assets/services-cold-laser.jpg" alt="Cold Laser Therapy">
+        </div>
+        <div class="service-card-body">
+          <span class="service-tag">Pain Relief</span>
+          <h3>Cold Laser Therapy</h3>
+          <p>Low-level laser therapy reduces inflammation, accelerates tissue repair, and promotes natural healing. Often combined with decompression or chiropractic care for faster recovery from tendonitis, sprains, and chronic muscle pain.</p>
+        </div>
+      </div>
+      <div class="service-card reveal reveal-delay-1">
+        <div class="service-card-img">
+          <img src="https://www.jupiterbackandneck.com/img/site_assets/services-massage.jpg" alt="Therapeutic Massage">
+        </div>
+        <div class="service-card-body">
+          <span class="service-tag">Therapeutic Wellness</span>
+          <h3>Massage Therapy</h3>
+          <p>Licensed massage therapists Par Loomis and Richelle Sanscriate offer sport and relaxation massage to relieve muscle tension, improve circulation, and complement your chiropractic care for longer-lasting results.</p>
+        </div>
+      </div>
+      <div class="service-card reveal reveal-delay-2">
+        <div class="service-card-img">
+          <img src="https://www.jupiterbackandneck.com/img/site_assets/services-physical-therapy.jpg" alt="Flexion-Distraction Therapy">
+        </div>
+        <div class="service-card-body">
+          <span class="service-tag">Non-Surgical</span>
+          <h3>Flexion/Distraction</h3>
+          <p>A gentle, table-assisted technique that stretches and decompresses the spine to reduce disc pressure and nerve irritation. Especially effective for herniated discs, sciatica, and spinal stenosis patients.</p>
+        </div>
+      </div>
+      <div class="service-card reveal reveal-delay-3">
+        <div class="service-card-img">
+          <img src="https://www.jupiterbackandneck.com/img/site_assets/services-sports-injury.jpg" alt="Sports Injury Treatment">
+        </div>
+        <div class="service-card-body">
+          <span class="service-tag">Active Recovery</span>
+          <h3>Sports Injury Treatment</h3>
+          <p>Comprehensive care for athletes of all levels. We address biomechanical imbalances, speed recovery from sports injuries, and help you get back to peak performance through targeted treatment plans.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== CONDITIONS WE TREAT ===== -->
+<section class="section-padding" id="conditions">
+  <div class="container">
+    <div class="conditions-inner">
+      <div class="conditions-left reveal">
+        <span class="section-label">Conditions We Treat</span>
+        <h2 class="section-title">Struggling with pain? We can help.</h2>
+        <p class="section-subtitle">Whether it's a chronic condition, a recent injury, or lingering discomfort that won't go away, our team has the experience and technology to get to the root cause and help you feel better.</p>
+        <div style="margin-top: 32px;">
+          <a href="#contact" class="btn btn-primary">Find Out How We Can Help</a>
+        </div>
+      </div>
+      <div class="conditions-grid">
+        <div class="condition-item reveal reveal-delay-1">
+          <div class="condition-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M12 9v3.75m-9.303 3.376c-.866 1.5.217 3.374 1.948 3.374h14.71c1.73 0 2.813-1.874 1.948-3.374L13.949 3.378c-.866-1.5-3.032-1.5-3.898 0L2.697 16.126z"/></svg>
+          </div>
+          <div>
+            <h4>Low Back Pain</h4>
+            <p>Disc herniations, sciatica, spinal stenosis</p>
+          </div>
+        </div>
+        <div class="condition-item reveal reveal-delay-2">
+          <div class="condition-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M12 9v3.75m-9.303 3.376c-.866 1.5.217 3.374 1.948 3.374h14.71c1.73 0 2.813-1.874 1.948-3.374L13.949 3.378c-.866-1.5-3.032-1.5-3.898 0L2.697 16.126z"/></svg>
+          </div>
+          <div>
+            <h4>Neck Pain</h4>
+            <p>Stiffness, cervical disc issues, whiplash</p>
+          </div>
+        </div>
+        <div class="condition-item reveal reveal-delay-3">
+          <div class="condition-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M12 9v3.75m-9.303 3.376c-.866 1.5.217 3.374 1.948 3.374h14.71c1.73 0 2.813-1.874 1.948-3.374L13.949 3.378c-.866-1.5-3.032-1.5-3.898 0L2.697 16.126z"/></svg>
+          </div>
+          <div>
+            <h4>Sciatica</h4>
+            <p>Leg pain, numbness, tingling</p>
+          </div>
+        </div>
+        <div class="condition-item reveal reveal-delay-4">
+          <div class="condition-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M12 9v3.75m-9.303 3.376c-.866 1.5.217 3.374 1.948 3.374h14.71c1.73 0 2.813-1.874 1.948-3.374L13.949 3.378c-.866-1.5-3.032-1.5-3.898 0L2.697 16.126z"/></svg>
+          </div>
+          <div>
+            <h4>Headaches & Migraines</h4>
+            <p>Tension headaches, cervicogenic headaches</p>
+          </div>
+        </div>
+        <div class="condition-item reveal reveal-delay-1">
+          <div class="condition-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M8.25 18.75a1.5 1.5 0 01-3 0m3 0a1.5 1.5 0 00-3 0m3 0h6m-9 0H3.375a1.125 1.125 0 01-1.125-1.125V14.25m17.25 4.5a1.5 1.5 0 01-3 0m3 0a1.5 1.5 0 00-3 0m3 0h1.125c.621 0 1.142-.504 1.09-1.124a17.902 17.902 0 00-3.213-9.193 2.056 2.056 0 00-1.58-.86H14.25M16.5 18.75h-2.25m0-11.177v-.958c0-.568-.422-1.048-.987-1.106a48.554 48.554 0 00-10.026 0 1.106 1.106 0 00-.987 1.106v7.635m12-6.677v6.677m0 4.5v-4.5m0 0h-12"/></svg>
+          </div>
+          <div>
+            <h4>Auto Accident Injuries</h4>
+            <p>Whiplash, sprains, delayed-onset pain</p>
+          </div>
+        </div>
+        <div class="condition-item reveal reveal-delay-2">
+          <div class="condition-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M20.25 14.15v4.25c0 1.094-.787 2.036-1.872 2.18-2.087.277-4.216.42-6.378.42s-4.291-.143-6.378-.42c-1.085-.144-1.872-1.086-1.872-2.18v-4.25m16.5 0a2.18 2.18 0 00.75-1.661V8.706c0-1.081-.768-2.015-1.837-2.175a48.114 48.114 0 00-3.413-.387m4.5 8.006c-.194.165-.42.295-.673.38A23.978 23.978 0 0112 15.75c-2.648 0-5.195-.429-7.577-1.22a2.016 2.016 0 01-.673-.38m0 0A2.18 2.18 0 013 12.489V8.706c0-1.081.768-2.015 1.837-2.175a48.111 48.111 0 013.413-.387m7.5 0V5.25A2.25 2.25 0 0013.5 3h-3a2.25 2.25 0 00-2.25 2.25v.894m7.5 0a48.667 48.667 0 00-7.5 0"/></svg>
+          </div>
+          <div>
+            <h4>Work Injuries</h4>
+            <p>Lifting injuries, repetitive strain</p>
+          </div>
+        </div>
+        <div class="condition-item reveal reveal-delay-3">
+          <div class="condition-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M15.362 5.214A8.252 8.252 0 0112 21 8.25 8.25 0 016.038 7.048 8.287 8.287 0 009 9.6a8.983 8.983 0 013.361-6.867 8.21 8.21 0 003 2.48z"/></svg>
+          </div>
+          <div>
+            <h4>Sports Injuries</h4>
+            <p>Sprains, strains, performance issues</p>
+          </div>
+        </div>
+        <div class="condition-item reveal reveal-delay-4">
+          <div class="condition-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z"/></svg>
+          </div>
+          <div>
+            <h4>Herniated Discs</h4>
+            <p>Bulging, herniated, degenerative disc disease</p>
+          </div>
+        </div>
+        <div class="condition-item reveal reveal-delay-1">
+          <div class="condition-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M15.75 6a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0zM4.501 20.118a7.5 7.5 0 0114.998 0A17.933 17.933 0 0112 21.75c-2.676 0-5.216-.584-7.499-1.632z"/></svg>
+          </div>
+          <div>
+            <h4>Mid Back Pain</h4>
+            <p>Thoracic pain, muscle spasms</p>
+          </div>
+        </div>
+        <div class="condition-item reveal reveal-delay-2">
+          <div class="condition-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M9.75 3.104v5.714a2.25 2.25 0 01-.659 1.591L5 14.5M9.75 3.104c-.251.023-.501.05-.75.082m.75-.082a24.301 24.301 0 014.5 0m0 0v5.714c0 .597.237 1.17.659 1.591L19.8 15.3M14.25 3.104c.251.023.501.05.75.082M19.8 15.3l-1.57.393A9.065 9.065 0 0112 15a9.065 9.065 0 00-6.23-.693L5 14.5m14.8.8l1.402 1.402c1.232 1.232.65 3.318-1.067 3.611A48.309 48.309 0 0112 21c-2.773 0-5.491-.235-8.135-.687-1.718-.293-2.3-2.379-1.067-3.61L5 14.5"/></svg>
+          </div>
+          <div>
+            <h4>Muscle Tension & Spasms</h4>
+            <p>Chronic tightness, trigger points</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== SPECIAL OFFER ===== -->
+<section class="offer-banner" id="special">
+  <div class="container">
+    <div class="offer-inner">
+      <div class="offer-content">
+        <h2>New Patient Special</h2>
+        <p>Consultation, comprehensive spinal exam, health history review, MRI review, and your first treatment included.</p>
+      </div>
+      <div class="offer-price">
+        <div class="amount">$150</div>
+        <span class="label">Complete first visit</span>
+      </div>
+      <a href="#contact" class="btn btn-white">Claim Your Offer</a>
+    </div>
+  </div>
+</section>
+
+<!-- ===== ABOUT / TEAM ===== -->
+<section class="about section-padding" id="about">
+  <div class="container">
+    <div class="about-header reveal">
+      <span class="section-label">Meet the Team</span>
+      <h2 class="section-title">Your health is in experienced hands</h2>
+      <p class="section-subtitle">At Jupiter Healthcare, quality care starts with respect for your time, your comfort, and your well-being.</p>
+    </div>
+
+    <div class="about-grid">
+      <div class="about-image reveal">
+        <img src="https://www.jupiterbackandneck.com/img/site_assets/dr-mcerlain.jpg" alt="Dr. James McErlain, D.C.">
+      </div>
+      <div class="about-content reveal reveal-delay-1">
+        <h3>Dr. James McErlain, D.C.</h3>
+        <p>Dr. McErlain is a graduate of the University of Florida who received his doctorate at Life University in Marietta, Georgia. As clinical director and owner of Jupiter Healthcare, his primary focus is treating disc herniations, neck pain, low back pain, sciatica, and sports injuries.</p>
+        <p>With over 20 years of spinal decompression experience and thousands of patients treated, Dr. McErlain often succeeds where other treatments have failed. Patients who've tried medications, injections, and even surgery find relief through his personalized approach and advanced technology.</p>
+        <p>When your care is under Dr. McErlain's direction, it's all about the patient. His goal is quality, personalized care that's difficult to find elsewhere.</p>
+        <div class="about-credentials">
+          <span class="credential-tag">University of Florida</span>
+          <span class="credential-tag">Life University, D.C.</span>
+          <span class="credential-tag">DRX9000 Certified</span>
+          <span class="credential-tag">20+ Years Experience</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="about-grid" style="margin-bottom: 0;">
+      <div class="about-content reveal" style="order: 1;">
+        <h3>Par Loomis, LMT</h3>
+        <p>Par brings over 20 years of experience in therapeutic massage. Nationally Certified by the NCBTMB since 2003, she specializes in creating deeply relaxing and restorative treatments incorporating hot stones, aromatherapy, and reflexology.</p>
+        <p>She has extensive experience addressing sciatica, TMJ dysfunction, prenatal care, and neuropathy, skillfully integrating deep tissue techniques and pressure point therapy to target problem areas.</p>
+
+        <h3 style="margin-top: 32px;">Richelle Sanscriate, LMT</h3>
+        <p>Richelle is a skilled massage therapist known for her exceptional deep tissue and therapeutic sport massage work. Patients consistently rate her among the best they've experienced.</p>
+      </div>
+      <div class="about-image reveal reveal-delay-1" style="order: 2;">
+        <img src="https://www.jupiterbackandneck.com/img/site_assets/chirobanner3.jpg" alt="Jupiter Healthcare and Chiropractic office" style="aspect-ratio: 4/3;">
+      </div>
+    </div>
+
+    <!-- Why Choose Us -->
+    <div class="why-grid">
+      <div class="why-card reveal reveal-delay-1">
+        <div class="why-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+        </div>
+        <h4>No-Wait Policy</h4>
+        <p>You're seen immediately. No crowded lobby. No waiting to feel better.</p>
+      </div>
+      <div class="why-card reveal reveal-delay-2">
+        <div class="why-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M2.25 21h19.5m-18-18v18m10.5-18v18m6-13.5V21M6.75 6.75h.75m-.75 3h.75m-.75 3h.75m3-6h.75m-.75 3h.75m-.75 3h.75M6.75 21v-3.375c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21M3 3h12m-.75 4.5H21m-3.75 3H21m-3.75 3H21"/></svg>
+        </div>
+        <h4>Private Treatment Suites</h4>
+        <p>Large, private rooms designed for individualized care and your comfort.</p>
+      </div>
+      <div class="why-card reveal reveal-delay-3">
+        <div class="why-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75m-3-7.036A11.959 11.959 0 013.598 6 11.99 11.99 0 003 9.749c0 5.592 3.824 10.29 9 11.623 5.176-1.332 9-6.03 9-11.622 0-1.31-.21-2.571-.598-3.751h-.152c-3.196 0-6.1-1.248-8.25-3.285z"/></svg>
+        </div>
+        <h4>Insurance & Medicare</h4>
+        <p>We accept Medicare and most insurance plans, and handle all the paperwork for you.</p>
+      </div>
+      <div class="why-card reveal reveal-delay-4">
+        <div class="why-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M18 18.72a9.094 9.094 0 003.741-.479 3 3 0 00-4.682-2.72m.94 3.198l.001.031c0 .225-.012.447-.037.666A11.944 11.944 0 0112 21c-2.17 0-4.207-.576-5.963-1.584A6.062 6.062 0 016 18.719m12 0a5.971 5.971 0 00-.941-3.197m0 0A5.995 5.995 0 0012 12.75a5.995 5.995 0 00-5.058 2.772m0 0a3 3 0 00-4.681 2.72 8.986 8.986 0 003.74.477m.94-3.197a5.971 5.971 0 00-.94 3.197M15 6.75a3 3 0 11-6 0 3 3 0 016 0zm6 3a2.25 2.25 0 11-4.5 0 2.25 2.25 0 014.5 0zm-13.5 0a2.25 2.25 0 11-4.5 0 2.25 2.25 0 014.5 0z"/></svg>
+        </div>
+        <h4>Trusted Referrals</h4>
+        <p>We coordinate with medical doctors and personal injury attorneys for complete care.</p>
+      </div>
+    </div>
+
+    <!-- Office Info Bar -->
+    <div class="office-info reveal">
+      <div class="office-info-block">
+        <h4>Office Hours</h4>
+        <ul>
+          <li>Monday: 9am - 1pm, 3pm - 6pm</li>
+          <li>Tuesday: 9am - 1pm</li>
+          <li>Wednesday: 9am - 1pm, 3pm - 6pm</li>
+          <li>Thursday: 9am - 1pm</li>
+          <li>Friday: 9am - 1:30pm</li>
+          <li>Saturday & Sunday: Closed</li>
+        </ul>
+      </div>
+      <div class="office-info-block">
+        <h4>Insurance Accepted</h4>
+        <ul>
+          <li>Medicare (In-Network Provider)</li>
+          <li>Auto accident & personal injury</li>
+          <li>Workers' compensation</li>
+          <li>Major PPO plans</li>
+          <li>Affordable self-pay rates</li>
+        </ul>
+      </div>
+      <div class="office-info-block">
+        <h4>Location</h4>
+        <p>125 Indiantown Road<br>Jupiter, FL 33458</p>
+        <p style="margin-top: 12px;">Serving Jupiter, Tequesta, Palm Beach Gardens, and surrounding communities.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== TESTIMONIALS ===== -->
+<section class="section-padding" id="testimonials">
+  <div class="container">
+    <div class="testimonials-header reveal">
+      <span class="section-label">Patient Reviews</span>
+      <h2 class="section-title">Real results from real patients</h2>
+      <p class="section-subtitle">See why patients throughout Jupiter and Palm Beach County trust Dr. McErlain and the team for their care.</p>
+      <div class="rating-summary">
+        <div class="rating-stars">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+        </div>
+        <span class="rating-text">4.9</span>
+        <span class="rating-count">116+ Google Reviews</span>
+      </div>
+    </div>
+
+    <div class="testimonials-grid">
+      <div class="testimonial-card reveal reveal-delay-1">
+        <div class="testimonial-stars">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+        </div>
+        <p class="testimonial-text">Dr. Mac and his team have been incredible. He takes the time to listen, explains everything thoroughly, and his treatments have made a huge difference in my quality of life.</p>
+        <div class="testimonial-author">
+          <div class="testimonial-avatar">M</div>
+          <div class="testimonial-author-info">
+            <h4>Melanie P.</h4>
+            <span>Jupiter, FL</span>
+          </div>
+        </div>
+      </div>
+      <div class="testimonial-card reveal reveal-delay-2">
+        <div class="testimonial-stars">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+        </div>
+        <p class="testimonial-text">I was in terrible pain with three herniated cervical discs. Dr. McErlain treated me with spinal decompression and the results were truly amazing. Years later and the pain still hasn't returned.</p>
+        <div class="testimonial-author">
+          <div class="testimonial-avatar">D</div>
+          <div class="testimonial-author-info">
+            <h4>Dawn L.</h4>
+            <span>Jupiter, FL</span>
+          </div>
+        </div>
+      </div>
+      <div class="testimonial-card reveal reveal-delay-3">
+        <div class="testimonial-stars">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+        </div>
+        <p class="testimonial-text">Best chiropractor in Florida. Dr. Mac and his staff are always so welcoming. He is gifted in knowing exactly how to get to the bottom of back pain. Glad to have found him.</p>
+        <div class="testimonial-author">
+          <div class="testimonial-avatar">P</div>
+          <div class="testimonial-author-info">
+            <h4>Pam P.</h4>
+            <span>Palm Beach Gardens, FL</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Featured long-form testimonial -->
+    <div class="featured-testimonial reveal">
+      <div class="testimonial-stars" style="margin-bottom: 20px;">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" style="fill: var(--gold); color: var(--gold);" width="24" height="24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" style="fill: var(--gold); color: var(--gold);" width="24" height="24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" style="fill: var(--gold); color: var(--gold);" width="24" height="24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" style="fill: var(--gold); color: var(--gold);" width="24" height="24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" style="fill: var(--gold); color: var(--gold);" width="24" height="24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+      </div>
+      <blockquote>After my football career, I needed both knees replaced. Then came low back issues with two bulging discs and about a dozen epidural shots. After spinal decompression and therapy with Dr. McErlain, I can walk with about 85% less pain. A miracle man is treating patients at Jupiter Healthcare.</blockquote>
+      <div class="testimonial-author">
+        <div class="testimonial-avatar">T</div>
+        <div class="testimonial-author-info">
+          <h4>Ted A. Madej</h4>
+          <span>Palm Beach Gardens, FL</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== CONTACT ===== -->
+<section class="contact section-padding" id="contact">
+  <div class="container">
+    <div class="contact-header reveal">
+      <span class="section-label">Get Started</span>
+      <h2 class="section-title">Ready to feel better?</h2>
+      <p class="section-subtitle">Schedule your consultation today. We'll listen to your concerns, identify the root cause of your pain, and create a personalized plan for lasting relief.</p>
+    </div>
+
+    <div class="contact-grid">
+      <div class="contact-form-wrapper reveal">
+        <h3>Request an Appointment</h3>
+        <p>Fill out the form below and our team will get back to you promptly.</p>
+        <form onsubmit="event.preventDefault(); alert('Thank you! We will be in touch shortly.');">
+          <div class="form-grid">
+            <div class="form-group">
+              <label for="firstName">First Name</label>
+              <input type="text" id="firstName" name="firstName" required>
+            </div>
+            <div class="form-group">
+              <label for="lastName">Last Name</label>
+              <input type="text" id="lastName" name="lastName" required>
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+              <label for="phone">Phone</label>
+              <input type="tel" id="phone" name="phone" required>
+            </div>
+            <div class="form-group full">
+              <label for="reason">What brings you in?</label>
+              <select id="reason" name="reason">
+                <option value="">Select a reason...</option>
+                <option>Back Pain</option>
+                <option>Neck Pain</option>
+                <option>Sciatica</option>
+                <option>Herniated Disc</option>
+                <option>Auto Accident Injury</option>
+                <option>Sports Injury</option>
+                <option>Work Injury</option>
+                <option>Headaches / Migraines</option>
+                <option>Massage Therapy</option>
+                <option>General Wellness</option>
+                <option>Other</option>
+              </select>
+            </div>
+            <div class="form-group full">
+              <label for="message">Anything else we should know?</label>
+              <textarea id="message" name="message" rows="3" placeholder="Tell us about your symptoms or concerns..."></textarea>
+            </div>
+            <div class="form-group full">
+              <button type="submit" class="btn btn-primary" style="width: 100%; justify-content: center;">
+                Request Appointment
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor" width="18" height="18"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg>
+              </button>
+            </div>
+          </div>
+        </form>
+      </div>
+
+      <div class="contact-info-cards">
+        <div class="contact-card reveal reveal-delay-1">
+          <div class="contact-card-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z"/></svg>
+          </div>
+          <div>
+            <h4>Call Us</h4>
+            <a href="tel:5617417575">(561) 741-7575</a>
+            <p>Mon-Fri, during office hours</p>
+          </div>
+        </div>
+        <div class="contact-card reveal reveal-delay-2">
+          <div class="contact-card-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z"/><path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 0115 0z"/></svg>
+          </div>
+          <div>
+            <h4>Visit Us</h4>
+            <p>125 Indiantown Road<br>Jupiter, FL 33458</p>
+          </div>
+        </div>
+        <div class="contact-card reveal reveal-delay-3">
+          <div class="contact-card-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+          </div>
+          <div>
+            <h4>Hours</h4>
+            <p>Mon & Wed: 9am-1pm, 3-6pm<br>Tue & Thu: 9am-1pm<br>Fri: 9am-1:30pm</p>
+          </div>
+        </div>
+        <div class="map-wrapper reveal reveal-delay-4">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3545.123!2d-80.0931!3d26.9342!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88ded!2s125+Indiantown+Rd+Jupiter+FL!5e0!3m2!1sen!2sus!4v1" allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Jupiter Healthcare location map"></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== FOOTER ===== -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <div class="nav-logo-text">
+          Jupiter Healthcare
+          <span>& Chiropractic</span>
+        </div>
+        <p>Providing advanced spinal decompression and trusted chiropractic care to Jupiter, Tequesta, Palm Beach Gardens, and surrounding communities since 2007.</p>
+      </div>
+      <div class="footer-links">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#conditions">Conditions</a></li>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#testimonials">Reviews</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-links">
+        <h4>Services</h4>
+        <ul>
+          <li><a href="#services">Spinal Decompression</a></li>
+          <li><a href="#services">Chiropractic Adjustments</a></li>
+          <li><a href="#services">Cold Laser Therapy</a></li>
+          <li><a href="#services">Massage Therapy</a></li>
+          <li><a href="#services">Sports Injury Treatment</a></li>
+        </ul>
+      </div>
+      <div class="footer-links">
+        <h4>Contact</h4>
+        <ul>
+          <li><a href="tel:5617417575">(561) 741-7575</a></li>
+          <li>125 Indiantown Road</li>
+          <li>Jupiter, FL 33458</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2026 Jupiter Healthcare and Chiropractic. All rights reserved.</p>
+      <p>Website by <a href="https://www.localaunch.au" target="_blank" rel="noopener">Local Launch</a></p>
+    </div>
+  </div>
+</footer>
+
+<!-- ===== JAVASCRIPT ===== -->
+<script>
+// Smooth scroll for anchor links
+document.querySelectorAll('a[href^="#"]').forEach(a => {
+  a.addEventListener('click', e => {
+    e.preventDefault();
+    const target = document.querySelector(a.getAttribute('href'));
+    if (target) target.scrollIntoView({ behavior: 'smooth' });
+    // Close mobile menu
+    document.getElementById('navLinks').classList.remove('open');
+  });
+});
+
+// Navbar scroll effect
+const nav = document.getElementById('nav');
+window.addEventListener('scroll', () => {
+  nav.classList.toggle('scrolled', window.scrollY > 20);
+});
+
+// Mobile menu toggle
+document.getElementById('navToggle').addEventListener('click', () => {
+  document.getElementById('navLinks').classList.toggle('open');
+});
+
+// Active nav link highlighting
+const sections = document.querySelectorAll('section[id]');
+const navLinks = document.querySelectorAll('.nav-links a');
+window.addEventListener('scroll', () => {
+  let current = '';
+  sections.forEach(section => {
+    const top = section.offsetTop - 120;
+    if (window.scrollY >= top) current = section.getAttribute('id');
+  });
+  navLinks.forEach(link => {
+    link.classList.remove('active');
+    if (link.getAttribute('href') === '#' + current) link.classList.add('active');
+  });
+});
+
+// Scroll reveal animations
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add('visible');
+    }
+  });
+}, { threshold: 0.1, rootMargin: '0px 0px -40px 0px' });
+
+document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+</script>
+</body>
+</html>
