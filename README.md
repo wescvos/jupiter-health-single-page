@@ -1,1 +1,0 @@
-# jupiter-health-single-page
